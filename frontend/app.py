@@ -100,14 +100,9 @@ def render_famous_person_chat():
     
     if not personas:
         personas = [
-            {"id": "einstein", "name": "🎓 爱因斯坦", "description": "相对论之父"},
-            {"id": "jobs", "name": "🍎 乔布斯", "description": "苹果创始人"},
-            {"id": "musk", "name": "🚀 马斯克", "description": "SpaceX CEO"},
-            {"id": "confucius", "name": "📚 孔子", "description": "儒家思想家"},
-            {"id": "socrates", "name": "🏛️ 苏格拉底", "description": "古希腊哲学家"},
-            {"id": "laozi", "name": "💡 老子", "description": "道家创始人"},
-            {"id": "da Vinci", "name": "🎨 达芬奇", "description": "文艺复兴天才"},
-            {"id": "holmes", "name": "🕵️ 福尔摩斯", "description": "世界名侦探"}
+            {"id": "shakespeare", "name": "� 莎士比亚", "description": "英国文学巨匠"},
+            {"id": "kobe", "name": "� 科比", "description": "NBA传奇球星"},
+            {"id": "curie", "name": "� 居里夫人", "description": "两次诺贝尔奖得主"}
         ]
     
     col1, col2 = st.columns([1, 3])
